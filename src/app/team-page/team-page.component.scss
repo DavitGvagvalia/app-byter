@@ -1,44 +1,49 @@
-
-#background{
+#background {
     z-index: -1;
     min-height: 80dvh;
     height: max-content;
     width: 100vw;
-    background: linear-gradient(177.41deg, rgba(61, 58, 163, 0) -47.7%, #3D3AA3 80.54%),url('../../assets/pngs/dev-team 1.png') no-repeat ;
-    background-size: auto,cover;
+    background: linear-gradient(177.41deg, rgba(61, 58, 163, 0) -47.7%, #3D3AA3 80.54%), url('../../assets/pngs/dev-team 1.png') no-repeat;
+    background-size: auto, cover;
 }
-div{
+
+div {
     height: 30vh;
 }
-*{
+
+* {
     color: white;
 }
-#texts{
+
+#texts {
     height: max-content;
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 63px;
     padding: 10vh;
-    #welcome{
+
+    #welcome {
         max-width: 100%;
         text-align: center;
-        width: 612px;
         color: #FFF;
-        font-family: "Roboto";
+        font-family: "Inter";
         font-size: 47px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
     }
-    p{
+
+    p {
         max-width: 90%;
         font-family: 'Inter';
         font-style: normal;
         line-height: 40px;
         font-size: 25px;
-        text-align: center;}
-    button{
+        text-align: center;
+    }
+
+    button {
         background-color: transparent;
         padding: 10px 70px 13px 70px;
         border: 1px solid #FFFFFF;
@@ -50,29 +55,33 @@ div{
         line-height: 21px;
         color: #FFFFFF;
     }
-    button:hover,button:active,button:focus{
+
+    button:hover,
+    button:active,
+    button:focus {
         background-color: white;
         color: #3D3AA3;
     }
-    
+
 }
 
 @media only screen and (max-width: 570px) {
-    #texts{
-        #welcome{
+    #texts {
+        #welcome {
             font-size: 30px;
             font-weight: 300;
             height: max-content;
         }
-        button{
+
+        button {
             white-space: nowrap;
         }
-        p{
-          
-            font-size: larger;
+
+        p {
+            text-align: left;
+            font-size: medium;
             max-width: fit-content;
-           
+
         }
     }
 }
-

@@ -2,9 +2,9 @@
     <div routerLink="/main" id="appByter">
     </div>
     <div id="buttons">
-    <button  routerLink="/main"  id="services">Services</button>
+    <button  routerLink="/main"  id="home" >Home</button>
+    <button  routerLink="/main"  id="services" (click)="scrollToSelectedDiv('service')">Services</button>
     <button routerLink="/main" id="works" (click)="scrollToSelectedDiv('carousel-container')">Projects</button>
     <button   routerLink="/team"  id="team">About Us</button>
     </div>
 </nav>
-  
